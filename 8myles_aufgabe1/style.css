@@ -1,0 +1,161 @@
+* ,
+*::before,
+*::after{box-sizing: border-box;}
+
+
+body{
+    margin:0;
+    padding: 0;
+    width: 1956px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-top{
+    
+    height: 36px;
+    background-color: #303d4e; 
+    font-size:13px;
+    font-weight: normal;
+    color: aliceblue;
+    padding: 7px;
+}
+
+.htl{margin: 0 10px 0 0;
+display: flex;
+justify-content: space-between;
+text-align: center;
+text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.add-text{
+    color:rgb(224, 221, 221);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.search-container{border: 0px solid #d6d2d2;
+    border-bottom-width:1px;
+    background-color:transparent;
+    width: 261px;
+    height: 36px;}
+    
+    .search{
+        background:transparent;
+        border-style: none;
+    
+        font-size: 19px;
+    }
+.search-icon{
+    background-color:transparent;
+    border-style: none;
+   max-width: 18px;
+    height: 18px;
+}
+.header-nav{
+    display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+height: 80px;
+padding:15px;
+}
+.icon-list{
+display:flex;
+justify-content:space-between;
+padding: 0.3em;
+}
+
+.nav-icon-list{
+    padding: 12px 33px;
+}
+.logo{
+    width: 230px;
+height: 37px;
+}
+.hnl-item{
+    font-weight: bold;
+    font-size: 18px;
+    padding:7px ;
+    color: rgb(46, 44, 44);
+    text-decoration: none;
+}
+.hnl-item:hover{
+    color: black;
+}
+.main-page{
+    height: 700px;
+    background-color:#00000014;
+    background-image:url("/images/Gruppe\ maskieren\ 139.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.page-title{
+    padding-top: 190px;
+}
+.GM-138{
+width: 970px;
+height: 700px;
+}
+.h2-title{margin: 0 auto;
+    color: #F97365;
+line-height: 2px;
+font-size: 1.5em;
+padding-bottom:10px ;
+}
+
+.main-title{
+    margin: 0 auto;
+    padding:10px 0 57px ;
+font-size:60px ;
+max-width: 452px;
+}
+.button{
+    display: inline-block;
+    width: 240px;
+height: 45px;
+background-color: #F97365;
+border: none;
+font-size: 19px;
+text-decoration: none;
+color: #fff;
+padding: 11px 47px;
+align-items: center;
+}
+.button:hover{
+    background-color: #e66455;
+}
+.flatcaps-image{
+    position: relative;
+   border: none;
+background-image: url(/images/portrait-young-blonde-woman-wearing-big-hatbea.png);
+background-position: center;
+background-repeat: no-repeat;
+width: 341px;
+min-height: 341px;
+}
+
+.flatcaps-image{
+    position: relative;
+    background-image: url(/images/portrait-young-blonde-woman-wearing-big-hatbea.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 341px;
+min-height: 341px;
+
+}
+.flatcaps-image a{
+    position: absolute;
+    background-color: #fff;
+    padding: 11px;
+}
+
+.section{display: flex;
+    margin-left: 278px;
+}
+
+.description{
+    padding: 68px;
+}
